@@ -72,5 +72,59 @@ export const KITS: Record<string, ClientInput> = {
         },
         goals: ['Sell products online'],
         stack: { frontend: 'React + Vite', hosting: 'Vercel', backend: 'Shopify / Supabase', email: 'Klaviyo', analytics: 'GA4', seo: 'Advanced' }
+    },
+    'AI Wrapper': {
+        name: 'AI Tool MVP',
+        companyName: 'NextGen AI',
+        projectType: 'SaaS',
+        brand: { tone: 'Tech-focused', priority: 'Speed', assetsReady: false, notes: 'Clean, futuristic UI' },
+        tags: {
+            industry: ['AI Wrapper', 'SaaS'],
+            audience: ['B2C', 'Prosumers'],
+            pages: ['Landing', 'App', 'Pricing', 'Sign Up'],
+            features: ['AI Text Gen', 'Chat Interface', 'Credit System', 'History', 'Export'],
+            integrations: ['OpenAI', 'Stripe', 'Supabase'],
+            constraints: ['API Cost Management'],
+            successMetrics: ['User Retention', 'API Usage'],
+            risks: ['Platform Risk (OpenAI Wrappers)']
+        },
+        goals: ['Validate simple AI use case', 'Get first users'],
+        stack: { frontend: 'React + Vite', hosting: 'Vercel', backend: 'Supabase Functions', email: 'Resend', analytics: 'PostHog', seo: 'Basic' }
+    },
+    'Directory': {
+        name: 'Niche Directory',
+        companyName: 'Curated List',
+        projectType: 'Web App',
+        brand: { tone: 'Minimalist', priority: 'Cost', assetsReady: false, notes: 'Content focus' },
+        tags: {
+            industry: ['Marketplace', 'Directory'],
+            audience: ['Niche Community'],
+            pages: ['Home', 'Listing Detail', 'Submit Listing', 'Category'],
+            features: ['Search', 'Filter', 'Submission Form', 'Admin Review', 'Newsletter'],
+            integrations: ['Airtable', 'Beehiiv'],
+            constraints: ['SEO Critical'],
+            successMetrics: ['Organic Traffic', 'Subscribers'],
+            risks: ['Chicken-Egg Problem']
+        },
+        goals: ['Build traffic', 'Monetize via featured listings'],
+        stack: { frontend: 'React + Vite', hosting: 'Vercel', backend: 'Supabase / Airtable', email: 'Beehiiv', analytics: 'Plausible', seo: 'Critical' }
+    },
+    'Agency': {
+        name: 'Agency Website',
+        companyName: 'Creative Studio',
+        projectType: 'Landing Page',
+        brand: { tone: 'Professional', priority: 'Quality', assetsReady: true, notes: 'High-end animations' },
+        tags: {
+            industry: ['Service', 'Marketing'],
+            audience: ['Enterprise Clients'],
+            pages: ['Home', 'Services', 'Case Studies', 'Contact'],
+            features: ['CMS for Case Studies', 'Contact Form', 'Calendly Embed'],
+            integrations: ['Calendly', 'Sanity / Contentful'],
+            constraints: ['Performance with Animations'],
+            successMetrics: ['Inbound Inquiries'],
+            risks: []
+        },
+        goals: ['Attract high-ticket clients'],
+        stack: { frontend: 'React + Vite', hosting: 'Netlify', backend: 'Sanity CMS', email: 'Resend', analytics: 'GA4', seo: 'High' }
     }
 };

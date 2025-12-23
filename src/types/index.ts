@@ -1,4 +1,4 @@
-export type ProjectType = 'Landing Page' | 'SaaS' | 'Internal Tool' | 'E-commerce' | 'Other';
+export type ProjectType = 'Landing Page' | 'SaaS' | 'Internal Tool' | 'E-commerce' | 'Web App' | 'Other';
 export type Priority = 'Speed' | 'Quality' | 'Cost';
 export type BrandTone = 'Professional' | 'Playful' | 'Luxurious' | 'Minimalist' | 'Tech-focused';
 

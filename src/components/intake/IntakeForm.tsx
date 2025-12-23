@@ -77,7 +77,7 @@ export function IntakeForm() {
                             onChange={e => handleChange('projectType', e.target.value)}
                             className="w-full bg-neutral-900 border border-neutral-800 rounded px-3 py-2 text-neutral-200 focus:border-emerald-500 outline-none appearance-none"
                         >
-                            {['Landing Page', 'SaaS', 'Internal Tool', 'E-commerce', 'Other'].map(t => <option key={t}>{t}</option>)}
+                            {['Landing Page', 'SaaS', 'Internal Tool', 'E-commerce', 'Web App', 'Other'].map(t => <option key={t}>{t}</option>)}
                         </select>
                     </div>
                     <div className="space-y-1">
